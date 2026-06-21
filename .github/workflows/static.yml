@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # POINT THIS to your built site directory. Examples: ./public, ./dist, ./out
-          path: ./public
+          path: ./
 
       - name: Deploy to GitHub Pages
         id: deployment
